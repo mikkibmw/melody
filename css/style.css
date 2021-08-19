@@ -64,11 +64,14 @@ text-align: right;
   padding: 54px 0 54px 0;
   display: flex;
 }
-.home-img path{
+.home-image path{
 opacity: 0;
 cursor: pointer;
 }
-.home-img path:hover{
+.home-image path:hover{
+  opacity: 1;
+}
+path.current-floor{
   opacity: 1;
 }
 .main-info{
